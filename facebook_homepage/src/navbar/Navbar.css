@@ -1,0 +1,94 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #F0F2F5;
+
+} */
+.nav-container{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+
+}
+.nav-wrapper{
+   display: flex;
+   padding: 5px 20px;
+   justify-content: space-between;
+   background-color: white;
+   margin-bottom: 12px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-box{
+    height: 42px;
+    width: 200px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #F0F2F5;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-container{
+    height: 42px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F0F2F5;
+border-radius: 50px;
+padding: 5px;
+margin-left: 5px;
+}
+
+.nav-middle{
+    display: flex;
+    justify-content:center ;
+}
+.header-icons{
+    display: flex;
+    align-items: center;
+    padding:5px 40px;
+    cursor: pointer;
+}
+.header-icons-active>.MuiSvgIcon-root{
+    color: #4267B2;
+}
+.header-icons-active{
+    border-bottom: 5px solid #4267B2 ;
+
+}
+.header-icons> .MuiSvgIcon-root{
+    color: gray;
+}
+.header-icons:hover{
+    background-color: rgba(216, 207, 207, 0.829);
+    border-radius: 10px;
+    border-bottom: none;
+    color: #4267B2;
+
+    
+}
+
+.nav-right{
+    display: flex;
+    cursor: pointer;
+}
+.nav-info{
+    display: flex;
+    align-items: center;
+}
+.nav-info>h4{
+    margin-left: 10px;
+}
+.nav-right>div{
+    margin-right: 10px;
+}
